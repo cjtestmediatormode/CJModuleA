@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'CJModuleA_Example' do
+  pod 'CJModuleA', :path => '../'
+
+  target 'CJModuleA_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
