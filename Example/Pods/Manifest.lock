@@ -1,0 +1,28 @@
+PODS:
+  - CJB_Category (0.1.2):
+    - CTMediator
+  - CJModuleA (0.1.0):
+    - CJB_Category
+    - CTMediator
+  - CTMediator (25)
+
+DEPENDENCIES:
+  - CJModuleA (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CJB_Category
+    - CTMediator
+
+EXTERNAL SOURCES:
+  CJModuleA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJB_Category: 16919e1055092fc007281e4284ab8b731a028c26
+  CJModuleA: 269363130b5ca95d0adff4ac6d7dec2eb5db6275
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+
+PODFILE CHECKSUM: b9ab0e4405f9ec53bbe6db45902a74307aa6cc69
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module CJModuleA {
+  umbrella header "CJModuleA-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -61,11 +61,20 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		680D6B65CDCE393CBE0E8C76 /* Pods-CJModuleA_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJModuleA_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CJModuleA_Example/Pods-CJModuleA_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8692AAE5D05A8BA763ADD8CD /* CJModuleA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CJModuleA.podspec; path = ../CJModuleA.podspec; sourceTree = "<group>"; };
+		8692AAE5D05A8BA763ADD8CD /* CJModuleA.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CJModuleA.podspec; path = ../CJModuleA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C9B7092AB2E5A2AF492E632 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9C9B7092AB2E5A2AF492E632 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A62D450F6876A1FB1114857A /* Pods_CJModuleA_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CJModuleA_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4E4D94E1F84BDCA7E5C1DB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B4E4D94E1F84BDCA7E5C1DB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F0A2D12E2225125B001C2ACF /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F0A2D12F2225125B001C2ACF /* ReplaceMe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		F0A2D1312225125B001C2ACF /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		F0A2D132222512B1001C2ACF /* CTMediator+CJA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+CJA.h"; sourceTree = "<group>"; };
+		F0A2D133222512B7001C2ACF /* CTMediator+CJA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+CJA.m"; sourceTree = "<group>"; };
+		F0A2D134222512B7001C2ACF /* Target_A_SecionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_A_SecionViewController.m; sourceTree = "<group>"; };
+		F0A2D135222512B7001C2ACF /* Target_A_SecionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_A_SecionViewController.h; sourceTree = "<group>"; };
+		F0A2D136222512B7001C2ACF /* A_SecionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A_SecionViewController.h; sourceTree = "<group>"; };
+		F0A2D137222512B7001C2ACF /* A_SecionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A_SecionViewController.m; sourceTree = "<group>"; };
 		FBDC2C5B2BDCA784062CDE6E /* Pods-CJModuleA_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CJModuleA_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CJModuleA_Tests/Pods-CJModuleA_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +152,7 @@
 		6003F593195388D20070C39A /* Example for CJModuleA */ = {
 			isa = PBXGroup;
 			children = (
+				F0A2D12C2225125B001C2ACF /* CJModuleA */,
 				6003F59C195388D20070C39A /* CJAppDelegate.h */,
 				6003F59D195388D20070C39A /* CJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -194,6 +204,39 @@
 				B4E4D94E1F84BDCA7E5C1DB8 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		F0A2D12C2225125B001C2ACF /* CJModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2D12D2225125B001C2ACF /* Classes */,
+				F0A2D1302225125B001C2ACF /* Assets */,
+			);
+			name = CJModuleA;
+			path = ../../CJModuleA;
+			sourceTree = "<group>";
+		};
+		F0A2D12D2225125B001C2ACF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2D12E2225125B001C2ACF /* .gitkeep */,
+				F0A2D12F2225125B001C2ACF /* ReplaceMe.m */,
+				F0A2D136222512B7001C2ACF /* A_SecionViewController.h */,
+				F0A2D137222512B7001C2ACF /* A_SecionViewController.m */,
+				F0A2D132222512B1001C2ACF /* CTMediator+CJA.h */,
+				F0A2D133222512B7001C2ACF /* CTMediator+CJA.m */,
+				F0A2D135222512B7001C2ACF /* Target_A_SecionViewController.h */,
+				F0A2D134222512B7001C2ACF /* Target_A_SecionViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F0A2D1302225125B001C2ACF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2D1312225125B001C2ACF /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
